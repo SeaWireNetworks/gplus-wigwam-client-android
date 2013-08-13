@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Facebook App Id -->
+    <string name="app_id">YOUR_FACEBOOK_APP_ID</string>
+
+    <!-- Google+ Client ID and Redirect URI -->
+    <string name="plus_client_id">YOUR_GOOGLE_CLIENT_ID</string>
+    <string name="redirect_uri">urn:ietf:wg:oauth:2.0:oob</string>
+
+    <!-- WigwamNow web app location (no trailing /) -->
+    <string name="external_host">YOUR_SERVER_URL</string>
+
+    <!-- Application specific strings -->
+    <string name="app_name">WigwamNow</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="get_started">Log in to WigwamNow</string>
+    <string name="settings">Settings</string>
+    <string name="rent_wigwam_button">Submit</string>
+    <string name="share_wigwam_button">Share</string>
+    <string name="action_separator">Actions:</string>
+    <string name="price_separator">Price:</string>
+    <string name="social_separator">Social:</string>
+    <string name="description_separator">Description:</string>
+    <string name="availability_separator">Availability:</string>
+    <string name="progress_message">Signing in to Google&#8230;</string>
+    <string name="wigwam_rented">Wigwam rented!</string>
+    <string name="feature_not_supported">Feature not supported.</string>
+    <string name="rent">Rent:</string>
+    <string name="rent_from">From</string>
+    <string name="rent_to">To</string>
+    <string name="posting_photo">Posting photo, please wait ...</string>
+    <string name="posting">Posting, please wait ...</string>
+    <string-array name="plus_settings">
+        <item>Sign Out</item>
+        <item>Disconnect</item>
+    </string-array>
+
+    <!-- Facebook Error Responses -->
+    <string name="error_dialog_default_text">No response from server.</string>
+    <string name="error_authentication_retry">An error occurred that requires your attention. %1$s</string>
+    <string name="error_authentication_reopen">An error occurred, please re-login.</string>
+    <string name="error_permission">Please allow us to post on your behalf.</string>
+    <string name="error_server">The server is busy, please retry later.</string>
+    <string name="error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
+
+    <!-- Google+ Scopes and Visible Activities -->
+    <string-array name="plus_scopes">
+        <item>https://www.googleapis.com/auth/plus.login</item>
+        <item>https://www.googleapis.com/auth/userinfo.email</item>
+        <item>https://www.googleapis.com/auth/calendar</item>
+    </string-array>
+    <string-array name="visible_activities">
+        <item>http://schemas.google.com/ReserveActivity</item>
+        <item>http://schemas.google.com/AddActivity</item>
+    </string-array>
+
+</resources>
